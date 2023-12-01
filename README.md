@@ -12,4 +12,10 @@ Started by creating a Subtotal column and adding it to a new data frame that too
 
 **Confirming the data** 
 
-I concantinated my new dataframe that i made with all the custom calculated columns and merged it to my previous clean_df from the start to include all of the data from the customer and be able to confirm the OrderID and ClientID. I had some trouble with confirming the top clients and my totals were not matching the expected output, but i needed to re-run my previous dataframes after changing a small thing. 
+I concantinated my new dataframe that i made with all the custom calculated columns and merged it to my previous clean_df from the start to include all of the data from the customer and be able to confirm the OrderID and ClientID. I had some trouble with confirming the top clients and my totals were not matching the expected output, but i needed to re-run my previous dataframes after changing a small thing. I also had to concatenate my two data frames and then go back and add suffixes to the columns because i discovered a dupe in the columns that was messing up my code. 
+
+All of the confirmations were accurate until the last table, but when looking back at my calculations they were all running correctly and returning the correct values. I truly don't know what is causing that issue on the final lines. 
+
+**Resources Used**
+
+I used google to find out out to concatenate and add a suffix and also i used ChatGPT to debug some of the error codes that I couldn't immediately figure out. Overall this was a lot harder than i thought it would be. It helped some of the pandas concepts we learned sync in. 
